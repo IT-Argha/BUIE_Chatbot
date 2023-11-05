@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 response = "The fee structure for the B.Tech program can vary. You can find detailed information about tuition and fees on our college website, and it may include information about semester-wise or annual fees.";
                 break;
 
-            case lowerUserMessage.includes("scholarships available"):
+            case lowerUserMessage.includes("scholarships"):
                 response = "We offer various scholarships and financial aid options to eligible students. The availability and criteria for scholarships can vary, so please check our website for details on scholarship opportunities.";
                 break;
 
@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 response = "We are deeply committed to sustainability initiatives and environmental conservation. Our college actively participates in recycling programs, energy conservation efforts, green campus projects, and awareness campaigns. We encourage students to get involved in sustainability activities and contribute to creating a more eco-friendly campus.";
                 break;
             case lowerUserMessage.includes("hello"):
-            case "hi":
+            case lowerUserMessage.includes("hi"):
                 response = "Hello! How can I assist you today?";
                 break;
         
