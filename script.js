@@ -49,7 +49,13 @@ document.addEventListener("DOMContentLoaded", function () {
             case lowerUserMessage.includes("programs"):
                 response = "We offer a variety of engineering programs. You can find detailed information about our courses on our website or request a course catalog.";
                 break;
-    
+
+            case lowerUserMessage.includes("about collage"):
+                response = "Bankura Unnayani Society has been dedicated to promoting education and social welfare for over 25 years. Its first endeavor, the Bankura Unnayani Institute of Engineering, was established in 1998 as a degree engineering college offering BTech and M.Tech courses. Now, the society is proud to announce the opening of a new degree college, Bankura Unnayani College, which will initially offer two courses: BBA and BCA.If you are interested in learning more about this exciting opportunity, we invite you to visit our website at bankuraunnayani.org. Alternatively, you can reach out to us directly by sending an email to bankuraunnayani1997@gmail.com.Contact no 9474642082";
+                break;
+            case lowerUserMessage.includes("computer centre"):
+                response = "The Institute Computer Centre is a central facility for the use of the students as well as faculty and staff members of any discipline of the institute for computational purposes. It is situated in a central place, on the first floor of the Central Library, for the ease of access to anyone interested to use it. The computers in the Centre are connected to the Campus wide Network, and with 24X7 internet facility. The centre also caters requirement of all online examinations and aptitude test practice sessions.";
+                break;
             case lowerUserMessage.includes("tuition"):
             case lowerUserMessage.includes("fees"):
                 response = "Tuition and fees information can be found on our website. We also offer scholarships and financial aid options to eligible students.";
