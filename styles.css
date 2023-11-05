@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-log {
+    padding: 16px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.chat-entry {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    clear: both; /* Clear floats to ensure proper alignment */
+}
+
+.chat-entry.bot {
+    background-color: #f1f1f1;
+    float: left; /* Align bot messages to the left */
+}
+
+.chat-entry.user {
+    background-color: #e0f7fa;
+    align-self: flex-end;
+    float: right; /* Align user messages to the right */
+}
+
+.user-input {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+/* Rest of your existing styles for chat entries and user input */
+
+@media (max-width: 768px) {
+    /* Apply styles for screens with a maximum width of 768px (typical for tablets) */
+    .chat-container {
+        width: 80%; /* Adjust the width for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    /* Apply styles for screens with a maximum width of 576px (typical for mobile devices) */
+    .chat-container {
+        width: 95%; /* Adjust the width for mobile devices */
+    }
+    .chat-entry {
+        max-width: 100%; /* Ensure chat entries span the full width on small screens */
+    }
+}
