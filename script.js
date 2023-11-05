@@ -504,7 +504,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 response = "We are deeply committed to sustainability initiatives and environmental conservation. Our college actively participates in recycling programs, energy conservation efforts, green campus projects, and awareness campaigns. We encourage students to get involved in sustainability activities and contribute to creating a more eco-friendly campus.";
                 break;
             case lowerUserMessage.includes("hello"):
-            case lowerUserMessage.includes("hi"):
+            case "hi":
                 response = "Hello! How can I assist you today?";
                 break;
         
