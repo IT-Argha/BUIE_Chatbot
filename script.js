@@ -509,8 +509,14 @@ document.addEventListener("DOMContentLoaded", function () {
             case lowerUserMessage.includes("commitment to sustainability"):
                 response = "We are deeply committed to sustainability initiatives and environmental conservation. Our college actively participates in recycling programs, energy conservation efforts, green campus projects, and awareness campaigns. We encourage students to get involved in sustainability activities and contribute to creating a more eco-friendly campus.";
                 break;
-            case lowerUserMessage.includes("hello"):
-            case lowerUserMessage.includes("hi"):
+            case lowerUserMessage === "hello":
+            case lowerUserMessage === "hi":
+            case lowerUserMessage === "hii":
+            case lowerUserMessage === "hiii":
+            case lowerUserMessage === "hi bot":
+            case lowerUserMessage === "hi buie bot":
+            case lowerUserMessage === "hello bot":
+            case lowerUserMessage === "hello buie bot":
                 response = "Hello! How can I assist you today?";
                 break;
         
