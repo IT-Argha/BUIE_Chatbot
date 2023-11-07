@@ -13,6 +13,8 @@
 
 ✅ And so much more!
 
+#link : https://it-argha.github.io/BUIE_Chatbot/
+
 
 This AI-powered chatbot is designed to streamline your experience and provide you with the information you need, when you need it. Whether you're a current student or considering joining our college, our chatbot is your go-to resource.
 
